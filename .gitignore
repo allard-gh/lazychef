@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Pytest
+.cache/
+
+# Other
+*.log
+.idea/
