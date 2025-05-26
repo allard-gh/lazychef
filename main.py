@@ -142,7 +142,7 @@ def show_recipe(data):
         exit_program()
 
 def main_menu():
-    print(f"{color('What do you feel like?', 'yellow')}")
+    print(f"{colored('What do you feel like?', 'yellow')}")
     for key, value in main_menu_options.items():
         print(f'{key}: {value}')
 
