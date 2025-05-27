@@ -202,9 +202,9 @@ def pantry():
         lucky()
         return
 
-    multiple_options[1] = f'Show recipe for {data_recipes[0]['title']} (uses {data_recipes[0]['usedIngredientCount']} of your ingredients)'
-    multiple_options[2] = f'Show recipe for {data_recipes[1]['title']} (uses {data_recipes[1]['usedIngredientCount']} of your ingredients)'
-    multiple_options[3] = f'Show recipe for {data_recipes[2]['title']} (uses {data_recipes[2]['usedIngredientCount']} of your ingredients)'
+    multiple_options[1] = f"Show recipe for {data_recipes[0]['title']} (uses {data_recipes[0]['usedIngredientCount']} of your ingredients)"
+    multiple_options[2] = f"Show recipe for {data_recipes[1]['title']} (uses {data_recipes[1]['usedIngredientCount']} of your ingredients)"
+    multiple_options[3] = f"Show recipe for {data_recipes[2]['title']} (uses {data_recipes[2]['usedIngredientCount']} of your ingredients)"
 
     for key, value in multiple_options.items():
         print(f'{key}: {value}')
@@ -232,9 +232,9 @@ def time_keeper():
 
     data_recipes = get_recipes('https://api.spoonacular.com/recipes/complexSearch', None, time)
 
-    multiple_options[1] = f'Show recipe for {data_recipes[0]['title']} (ready in {data_recipes[0]['readyInMinutes']} minutes)'
-    multiple_options[2] = f'Show recipe for {data_recipes[1]['title']} (ready in {data_recipes[1]['readyInMinutes']} minutes)'
-    multiple_options[3] = f'Show recipe for {data_recipes[2]['title']} (ready in {data_recipes[2]['readyInMinutes']} minutes)'
+    multiple_options[1] = f"Show recipe for {data_recipes[0]['title']} (ready in {data_recipes[0]['readyInMinutes']} minutes)"
+    multiple_options[2] = f"Show recipe for {data_recipes[1]['title']} (ready in {data_recipes[1]['readyInMinutes']} minutes)"
+    multiple_options[3] = f"Show recipe for {data_recipes[2]['title']} (ready in {data_recipes[2]['readyInMinutes']} minutes)"
 
     for key, value in multiple_options.items():
         print(f'{key}: {value}')
